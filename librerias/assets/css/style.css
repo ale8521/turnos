@@ -1,0 +1,147 @@
+.ancho{
+    max-width: 100%;
+}
+.form-select {
+    display: block;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    vertical-align: middle;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #dce7f1;
+    border-radius: .25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+.btn.btn-danger, .btn.btn-info, .btn.btn-primary, .btn.btn-secondary, .btn.btn-success, .btn.btn-warning {
+    color: #000;
+}
+.btn-primary {
+    color: #000;
+    background-color: #fff;
+    border-color: #ff0066;
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus, .btn-primary:hover {
+    color: #fff;
+    background-color: #ff0066;
+    border-color: #ff0066;
+}
+
+.bajarBotones{
+    margin-top: 25px;
+}
+
+.card .card-header {
+    border: 1px solid #ff0066;
+    border-radius: 5px;
+    margin-top: -26px;
+    height: 30px;
+    width: 96%;
+    margin-left: 2%;
+
+}
+
+.titulo{
+    margin-top: -15px;
+}
+
+.mensaje{
+    color: #ff0066;
+    font-size: 11px;
+}
+
+#main {
+    margin-left: 0px;
+    padding: 2rem;
+}
+.dataTables_filter{
+    margin-bottom: 20px;
+}
+
+
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #333 !important;
+    border: 1px solid #ff0066;
+    background-color: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #fff));
+    background: -webkit-linear-gradient(top, white 0%, #fff 0%);
+    background: -moz-linear-gradient(top, white 0%, #fff 0%);
+    background: -ms-linear-gradient(top, white 0%, #fff 0%);
+    background: -o-linear-gradient(top, white 0%, #fff 0%);
+    background: linear-gradient(to bottom, white 0%, #fff 0%);
+    border-radius: 5px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: white !important;
+    border: 1px solid #ff0066;
+    background-color: #ff0066;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff0066), color-stop(100%, #ff0066));
+    background: -webkit-linear-gradient(top, #ff0066 0%, #ff0066 100%);
+    background: -moz-linear-gradient(top, #ff0066 0%, #ff0066 100%);
+    background: -ms-linear-gradient(top, #ff0066 0%, #ff0066 100%);
+    background: -o-linear-gradient(top, #ff0066 0%, #ff0066 100%);
+    background: linear-gradient(to bottom, #ff0066 0%, #ff0066 100%);
+}
+
+
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-striped-color: #000;
+    --bs-table-striped-bg: #FFEFF9;
+    --bs-table-active-color: #000;
+    --bs-table-active-bg: #000;
+    --bs-table-hover-color: #000;
+    --bs-table-hover-bg: #000;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #000;
+    vertical-align: top;
+    border-color: #eee;
+}
+
+body {
+    margin: 0;
+    font-family: Nunito;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #607080;
+    background-color: #FBFCFC;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid  #979A9A;
+    border-radius: .7rem;
+}
+.form-group label {
+    color: #000;
+    font-weight: 600;
+}
+
+
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #000;
+    background-color: #fff;
+    border-color: #ff0066;
+}
